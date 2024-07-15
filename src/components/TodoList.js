@@ -41,6 +41,7 @@ function TodoList() {
                 type="text" 
                 value={inputValue} 
                 onChange={handleInputChange} 
+                placeholder="Ex: Going to the store"
             /> 
             <button onClick={handleSubmit}>
                 {isEditing ? "Update Todo" : "Add Todo"}
